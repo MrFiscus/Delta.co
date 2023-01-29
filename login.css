@@ -1,0 +1,92 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)) , url(https://wallpaperaccess.com/full/1768169.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.card {
+    padding: 50px;
+    width: 250px;
+    height:280px;
+    background: #f4f6fb;
+    border: 1px solid white;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+  }
+  
+  .form {
+    padding: 25px;
+  }
+  
+  .card_header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card svg {
+    color: red;
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+  
+  .form_heading {
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: red;
+  }
+  
+  .field {
+    padding-bottom: 10px;
+  }
+  
+  .input {
+    border-radius: 5px;
+    background-color: rgb(69, 42, 44);
+    padding: 5px;
+    width: 100%;
+    color: rgb(69, 42, 44);
+    border: 1px solid #dadaf7
+  }
+  
+  .input:focus-visible {
+    outline: 1px solid #aeaed6;
+  }
+  
+  .input::placeholder {
+    color: #ffffff;
+  }
+  
+  label {
+    color:rgb(69, 42, 44);
+    font-size: 14px;
+    display: block;
+    padding-bottom: 4px;
+  }
+  
+  button {
+    background-color: #ff021b;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    height: auto;
+    font-weight: 500;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }

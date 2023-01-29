@@ -186,7 +186,7 @@ nav ul li a:hover::after {
     overflow: hidden;
     flex-direction: column;
     width: 60vw;
-    margin-left: 250px;
+    margin-left: 260px;
 }
 
 .text-body-main{
